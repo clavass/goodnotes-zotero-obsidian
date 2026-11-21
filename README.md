@@ -59,7 +59,7 @@ Pieces:
 ## Requirements
 
 - A Mac that is on most of the time (the script and the plugin run there).
-- GoodNotes on iPad, with Auto Backup (needs a Google Drive account here; other providers work with path changes).
+- GoodNotes on iPad or iPhone, with Auto Backup (needs a Google Drive account here; other providers work with path changes).
 - Google Drive for desktop.
 - An Obsidian vault in iCloud Drive (any synced location works, with path changes).
 - Apple Mail with an account that can send e-mail (used to send PDFs to GoodNotes).
