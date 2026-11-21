@@ -1,0 +1,22 @@
+# GoodNotes Sync — configuration
+# Copy this file to ~/.goodnotes-sync/config and edit the values.
+# Both the sync script and the Zotero plugin read it.
+# Use straight double quotes. $HOME is expanded.
+
+# Folder where GoodNotes Auto Backup writes PDFs (Google Drive for desktop).
+# The "My Drive" part is localized (e.g. "Meine Ablage", "Mi unidad").
+DRIVE_GOODNOTES_DIR="$HOME/Library/CloudStorage/GoogleDrive-you@example.com/My Drive/GoodNotes"
+
+# Folder inside your Obsidian vault that mirrors it. It must sit at the vault root.
+VAULT_GOODNOTES_DIR="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/YourVault/GoodNotes"
+
+# Your personal "Email to Goodnotes" address (Goodnotes settings).
+# Leave empty to disable sending PDFs added in Obsidian/Zotero to GoodNotes.
+# Keep it private: anyone who knows it can drop files into your GoodNotes.
+GOODNOTES_EMAIL=""
+
+# Where the script and the Zotero plugin keep their state and logs.
+STATE_DIR="$HOME/.goodnotes-sync/state"
+
+# Where PDFs removed from the vault are moved (inside the macOS Trash).
+TRASH_DIR="$HOME/.Trash/goodnotes-sync"
